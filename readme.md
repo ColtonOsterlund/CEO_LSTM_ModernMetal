@@ -1,0 +1,1 @@
+docker run -it --gpus all -v ${pwd}:/workspace -p 8888:8888 nvcr.io/nvidia/tensorflow:22.07-tf2-py3
